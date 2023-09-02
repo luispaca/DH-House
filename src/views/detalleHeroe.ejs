@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <%- include("partials/head") %>
+    </head>
+    <body>
+        <div class="container">
+            <div class="imagen">
+                <img src="<%= hero.imagen %>" alt="Aquí va una foto">
+            </div>        
+            <div class="detail">
+                <h1><%= hero.nombre %></h1>
+                <p><strong>Profesión: </strong><%= hero.profesion %></p>
+                <p><strong>País: </strong><%= hero.pais %></p>
+                <p><strong>Resenia: </strong><%= hero.resenia %></p>
+                <a href="/"><button>Volver</button></a>
+            </div>
+        </div>
+    </body>
+</html>
